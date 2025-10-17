@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Book Store</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .book img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .bookinfo {
+      text-align: center;
+      padding-top: 10px;
+    }
+    footer {
+      text-align: center;
+      background-color: #343a40;
+      color: white;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ✅ Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Fiza's Book Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#genres">Genres</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bestseller">Best Seller</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Hero Section -->
+  <section class="text-center bg-light py-5" id="home">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Welcome to Fiza's Book Store</h1>
+      <p class="lead mt-3">Books ranging from kids category to young adults to history, sci-fi and much more. Books for all!</p>
+    </div>
+  </section>
+
+  <!-- ✅ Book Collection -->
+  <div class="container my-5">
+    <div class="row g-4">
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card book">
+          <img src="aggtm.jpg" class="card-img-top" alt="A Good Girl's Guide to Murder">
+          <div class="card-body bookinfo">
+            <h5 class="card-title">A Good Girl's Guide to Murder</h5>
+            <p class="card-text">Author: Holly Jackson<br>Price: Rs.300</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card book">
+          <img src="silentpatient.jpg" class="card-img-top" alt="Silent Patient">
+          <div class="card-body bookinfo">
+            <h5 class="card-title">Silent Patient</h5>
+            <p class="card-text">Author: Alex Michaelides<br>Price: Rs.300</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card book">
+          <img src="strangerinherhouse.jpg" class="card-img-top" alt="Stranger in Her House">
+          <div class="card-body bookinfo">
+            <h5 class="card-title">Stranger in Her House</h5>
+            <p class="card-text">Author: John Marrs<br>Price: Rs.300</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card book">
+          <img src="neverlie.webp" class="card-img-top" alt="Never Lie">
+          <div class="card-body bookinfo">
+            <h5 class="card-title">Never Lie</h5>
+            <p class="card-text">Author: Frieda McFadden<br>Price: Rs.300</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card book">
+          <img src="housemaid.webp" class="card-img-top" alt="Housemaid">
+          <div class="card-body bookinfo">
+            <h5 class="card-title">Housemaid</h5>
+            <p class="card-text">Author: Frieda McFadden<br>Price: Rs.300</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>&copy; 2025 Bookstore. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
