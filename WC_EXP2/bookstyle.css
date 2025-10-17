@@ -1,0 +1,111 @@
+body {
+ background-color:#FBFAF0;
+}
+
+h1 {
+  color: black;
+  text-align: left;
+font-family:cursive;
+ background-color:#FFFFC5;
+
+}
+
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+div.background {
+  background: url(book.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+footer{
+text-align: center;
+background-color: lightyellow;
+color: #996633;
+padding: 10px;
+margin-top: 40px;
+}
+.buy-button {
+  background-color: #C8A2C8; /* Green background */
+  color: white; /* White text */
+  padding: 10px 25px; /* Padding around text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 15px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.buy-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* Add this to bookstyle.css */
+.book-container {
+    display: flex;
+    justify-content: space-around; /* Distributes items evenly with space around them */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there isn't enough space */
+    gap: 25px; /* Adds space between the book items */
+}
+
+.book {
+
+  
+background-color:white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+margin-bottom:20px;
+  height: 480px;
+    text-align: center;
+    width: 200px; /* You can set a fixed width for each book item */
+gap: 20px;
+
+  object-fit: contain;
+}
+
+
+.book img {
+    max-width: 85%;
+    height: auto;
+    border-radius: 5px;
+}
